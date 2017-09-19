@@ -51,6 +51,21 @@ int main(int argc, char* argv[])
      * 3) "the second house is cheaper"
      * 4) "invalid comparison value there must be a bug"
      */
+    switch(comparison)
+    {
+        case 1:
+            cout << "The first house is cheaper." << endl;
+            break;
+        case 2:
+            cout << "The two houses are equally expensive." << endl;
+            break;
+        case 3:
+            cout << "The second house is cheaper." << endl;
+            break;
+        case 4:
+            cout << "Invalid comparison value. There must be a bug" << endl;
+            break;
+    }
 
     return 0;
 }
