@@ -20,7 +20,7 @@ struct Point
 void ShowPoint(const struct Point &p);  // Constant address
 void UpdatePoint(struct Point &p);      // &p is passing by address (Reference)
 struct Point CreatePoint();             // Returns a Point structure. Takes no input
-struct Point CreatePointValue(float x = 0.0, float y = 0.0);    // Give default values for x and y (ONLY in prototype)
+struct Point CreatePointValue(float x = 1.0, float y = 1.0);    // Give default values for x and y (ONLY in prototype)
 inline float InchesToCm(float val) {return val * IN_CM;};     // Inline function (defined in prototype)
 
 // Main Program Program
