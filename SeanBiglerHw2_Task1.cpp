@@ -33,9 +33,9 @@ int ComparePrices(struct house h1, struct house h2);
 /* Main Program */
 int main(int argc, char* argv[])
 {
-    cout<<"Enter info for first house\n";
+    cout<<"Enter info for first house\n";       // Get info for first house
     struct house firstHouse = InputHouse();
-    cout<<"\nEnter info for second house\n";
+    cout<<"\nEnter info for second house\n";    // Get info for second house
     struct house secondHouse = InputHouse();
 
     PrintHouse(1, firstHouse);
@@ -96,6 +96,7 @@ int ComparePrices(struct house h1, struct house h2)
 {
     int x = 0;
 
+    // Return values to be used in switch statement
     if(h1.price < h2.price)
     {
         x = 1;
