@@ -65,12 +65,14 @@ int main(int argc, char* argv[])
         case 4:
             cout << "Invalid comparison value. There must be a bug" << endl;
             break;
+        default:
+            cout << "Not supported" << endl;
     }
 
     return 0;
 }
 
-/* Function Defenitions */
+/* Function Definitions */
 struct house InputHouse(void)
 {
     house h;
