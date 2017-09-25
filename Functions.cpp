@@ -2,7 +2,7 @@
 using namespace std;
 
 // TASK: define a function Arithmetic() that takes two
-// floats as input perameters, and it displays
+// floats as input parameters, and it displays
 // their sum, difference, and product.
 // Function prototype
 void Arithmetic(float f1, float f2);
